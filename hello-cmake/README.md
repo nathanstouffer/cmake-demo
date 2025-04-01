@@ -27,10 +27,27 @@ You can generate your build system of choice by running or you can use your syst
 
 ```bash
 # specify generator
-$ cmake -S . -B .build -G "<YOUR_GENERATOR_STRING_HERE>"
+$ cmake -S . -B .build/ -G "<YOUR_GENERATOR_STRING_HERE>"
 
 # use system default
-$ cmake -S . -B .build
+$ cmake -S . -B .build/default
+```
+
+You can also specify a build type.
+CMake supports four build types out of the box: `Debug`, `Release`, `RelWithDebInfo`, and `MinSizeRel` (and you can create additional build types).
+You can even see the size difference with a very small program.
+
+```bash
+# there is some nuance here depending on your generator. some
+# build systems have the capacity to support multiple
+# configurations (eg Visual Studio) while others (eg Makefile)
+# can only support one configuration
+
+# a debug build
+$ cmake -S . -B .build/Debug -G "<YOUR_GENERATOR_STRING_HERE>"
+
+# a build to deploy
+$ cmake -S . -B .build/MinSizeRel -G "<YOUR_GENERATOR_STRING_HERE>"
 ```
 
 Then you can build the application using the build system you generated (eg Visual Studio) or you can just use CMake's build command.
