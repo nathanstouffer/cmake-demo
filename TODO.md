@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] hello-cmake
+- [x] hello-cmake
 - [ ] static-lib
 - [ ] dynamic-lib
 - [ ] interface-lib
