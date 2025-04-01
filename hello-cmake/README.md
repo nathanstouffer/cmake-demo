@@ -33,6 +33,18 @@ $ cmake -S . -B .build/ -G "<YOUR_GENERATOR_STRING_HERE>"
 $ cmake -S . -B .build/default
 ```
 
+Then you can build the application using the build system you generated (eg Visual Studio) or you can just use CMake's build command.
+
+```bash
+$ cmake --build .build/default
+```
+
+Then you can run the application and you should see the following printed to the console:
+
+```
+Hello CMake!
+```
+
 You can also specify a build type.
 CMake supports four build types out of the box: `Debug`, `Release`, `RelWithDebInfo`, and `MinSizeRel` (and you can create additional build types).
 You can even see the size difference with a very small program.
@@ -48,16 +60,4 @@ $ cmake -S . -B .build/Debug -G "<YOUR_GENERATOR_STRING_HERE>"
 
 # a build to deploy
 $ cmake -S . -B .build/MinSizeRel -G "<YOUR_GENERATOR_STRING_HERE>"
-```
-
-Then you can build the application using the build system you generated (eg Visual Studio) or you can just use CMake's build command.
-
-```bash
-$ cmake --build .build/
-```
-
-Then you can run the application and you should see the following printed to the console:
-
-```
-Hello CMake!
 ```
