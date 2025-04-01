@@ -4,7 +4,7 @@
 - [x] static-lib
 - [x] shared-lib
 - [ ] interface-lib
-- [ ] transitive-deps
+- [x] transitive-deps
 - [ ] fetch-content
 - [ ] vcpkg-integration
 - [ ] googletest-integration
