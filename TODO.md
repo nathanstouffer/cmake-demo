@@ -1,7 +1,7 @@
 # TODO
 
 - [x] hello-cmake
-- [ ] static-lib
+- [x] static-lib
 - [ ] dynamic-lib
 - [ ] interface-lib
 - [ ] transitive-deps
