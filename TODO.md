@@ -5,6 +5,6 @@
 - [ ] shared-lib
 - [ ] interface-lib
 - [x] transitive-deps
-- [ ] fetch-content
+- [x] fetch-content
 - [ ] vcpkg-integration
 - [ ] googletest-integration
