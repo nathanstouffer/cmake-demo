@@ -27,7 +27,7 @@ You can generate your build system of choice by running or you can use your syst
 
 ```bash
 # specify generator
-$ cmake -S . -B .build/ -G "<YOUR_GENERATOR_STRING_HERE>"
+$ cmake -S . -B .build/specified -G "<YOUR_GENERATOR_STRING_HERE>"
 
 # use system default
 $ cmake -S . -B .build/default
