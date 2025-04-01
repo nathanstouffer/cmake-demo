@@ -2,7 +2,7 @@
 
 - [x] hello-cmake
 - [x] static-lib
-- [ ] dynamic-lib
+- [x] shared-lib
 - [ ] interface-lib
 - [ ] transitive-deps
 - [ ] fetch-content

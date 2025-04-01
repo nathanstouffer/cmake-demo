@@ -9,3 +9,4 @@ This repo contains some demos for some of the useful things that `CMake` can do.
 
 1. [hello-cmake](./hello-cmake/)
 2. [static-lib](./static-lib/)
+3. [shared-lib](./shared-lib/)
